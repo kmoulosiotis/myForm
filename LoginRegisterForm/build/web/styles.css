@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Οκτ 2019, 12:27:58 πμ
+    Author     : Kostas
+*/
+
+*{
+    font-family: Verdana, Arial, Sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.login-box, .register-box, .delete-box{
+    width: 350px;
+    background-color: #e6e6e6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 20px #f2f2f2;
+    border-radius: 5px;
+}
+
+.login-box h1, .register-box h1{
+    font-size: 30px;
+}
+
+.user-icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.login-form{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /*margin-top: 6%;*/
+}
+.login-table, .register-table{
+    display: inline-block;
+}
+
+.table-cell{
+    width:300px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid  #cccccc;
+    margin-bottom:20px;
+    font-size:16px;
+    color: #000;
+}
+
+.submit, .confirm, .cancel {
+    background-color:#000;
+    border-color:transparent;
+    border-radius:20px;
+    font-size:20px;
+    height:40px;
+    margin-top:20px;
+    letter-spacing:2px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.register{
+    color: #999999;
+    font-size: 15px;
+}
+
+.register a{
+    color: #000;
+    text-decoration: none;
+}
+/*registration form stylling*/
+.register-form{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /*margin-top: 2.5%;*/
+}
+
+.wrongMessage{
+    color: #ff0000;
+    position: absolute;
+    top:71%;
+    left:7%;
+}
+
+.diffPass, .inclUsr{
+    color:#ff0000;
+    position: absolute;
+    top:80%;
+    left:18%
+}
+
+.misInfo{
+    color:#ff0000;
+    position: absolute;
+    top:80%;
+    left:29%;
+}
+
+.invalidPassword{
+    color:#ff0000;
+    position: absolute;
+    top:71%;
+    left:20%;
+}
+
+.successMsg{
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.welcome{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.failDel{
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btns{
+    margin-top: 25px;
+    margin-right: 20px;
+    float: right;
+}
+
+.logout-btn{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.del-acc{
+    margin-right: 10px;
+    color:#fff;
+    background-color: #c20a00;
+    outline: none;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.popup-form{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.delete-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.delete-box h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.cancel{
+    background-color: #c20a00;
+    margin-top: 0;
+}
